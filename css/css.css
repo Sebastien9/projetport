@@ -1,0 +1,318 @@
+.titre {
+    background: linear-gradient(rgba(14, 13, 13, 0.5), rgba(24, 23, 23, 0.5)), url("../image/bg.jpg");
+    background-size: 100vw;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: -1em;
+    margin-left: -1em;
+    margin-right: -0.5em;
+}
+
+.ba {
+    display: flex;
+    justify-content: flex-end;
+    visibility: hidden;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+    width: 96.5vw;
+    opacity: 0.7;
+    position: fixed;
+    margin-top: 0.5em;
+    z-index: 10;
+}
+
+.menucah1 {
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    left: -500px;
+    width: 200px;
+    z-index: 10;
+}
+
+.menucah1.menu_visible {
+    left: 0px
+}
+
+li {
+    list-style: none;
+    margin-left: 0.8em;
+    color: white;
+    font-size: 1.3em;
+}
+
+#p1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+#p2 {
+    display: flex;
+    justify-content: center;
+    size: 4em;
+}
+
+#hh2 {
+    font-size: 3em;
+}
+
+#hh1 {
+    font-size: 4em;
+}
+
+i {
+    margin-left: 1em;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 2em;
+    overflow: hidden;
+}
+
+#sec1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3 {
+    margin-left: -4em;
+}
+
+#im2 {
+    width: 100em;
+    border-radius: 15px;
+    margin: 1em;
+}
+
+#p3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#p4 {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+#bout {
+    display: flex;
+    flex-direction: row;
+    width: 20em;
+}
+
+.bout1 {
+    background-color: black;
+    color: white;
+}
+
+input {
+    border-radius: 15px;
+    background-color: white;
+    border: black solid 1px;
+    width: 20em;
+    height: 4em;
+    margin-right: 1em;
+}
+
+.car1 {
+    width: 8em;
+    border-radius: 100px;
+}
+
+.tes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#gris {
+    background: linear-gradient(rgba(226, 218, 218, 0.5), rgba(218, 212, 212, 0.5));
+    margin-left: -0.8em;
+    margin-right: -0.5em;
+}
+
+.d1 {
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.te {
+    text-align: center;
+}
+
+#photo1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 27em;
+    margin-top: 1em;
+}
+
+a i {
+    position: relative;
+    left: 6em;
+    bottom: 6em;
+    visibility: hidden;
+    border-radius: 15px;
+    font-size: 2em;
+}
+
+.six:hover i {
+    visibility: visible;
+}
+
+.six {
+    width: 25em;
+    margin-right: 4em;
+    margin-top: 1em;
+}
+
+.wh1 {
+    width: 25em;
+    height: 20em;
+    background-color: rgba(255, 255, 255, 0.836);
+    position: absolute;
+    top: 30px;
+    left: 5em;
+    visibility: hidden;
+}
+
+.six:hover .wh1 {
+    visibility: visible;
+}
+
+#der {
+    background: linear-gradient(rgba(226, 218, 218, 0.5), rgba(218, 212, 212, 0.5));
+    margin-left: -0.8em;
+    margin-right: -0.5em;
+    margin-bottom: 1em;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+input {
+    width: 25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    width: 12em;
+    margin-left: 7em;
+}
+
+#sec2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -1.2em;
+    margin-bottom: -1.2em;
+    margin-left: -0.8em;
+    margin-right: -0.5em;
+}
+
+.bar {
+    BORDER-RADIUS: 5PX;
+    BACKGROUND: #F7F7F7;
+    BOX-SHADOW: 0PX 2PX 7PX RGBA(0, 0, 0, 0.15);
+    MARGIN-BOTTOM: 30PX;
+    overflow: hidden;
+}
+
+.bar1 {
+    BORDER-RADIUS: 5PX;
+    BACKGROUND-COLOR: #1C1C1C;
+    WIDTH: 80%;
+    animation: slid 3s alternate linear;
+    color: white;
+}
+
+@keyframes slid {
+    from {
+        margin-right: 0%;
+        width: 0%;
+    }
+    to {
+        margin-left: 0%;
+        width: 80%;
+    }
+}
+
+.bar2 {
+    BORDER-RADIUS: 5PX;
+    BACKGROUND-COLOR: #1C1C1C;
+    WIDTH: 55%;
+    animation: slide 3s alternate linear;
+    color: white;
+}
+
+@keyframes slide {
+    from {
+        margin-right: 0%;
+        width: 0%;
+    }
+    to {
+        margin-left: 0%;
+        width: 55%;
+    }
+}
+
+.bar3 {
+    BORDER-RADIUS: 5PX;
+    BACKGROUND-COLOR: #1C1C1C;
+    WIDTH: 75%;
+    animation: slides 3s alternate linear;
+    color: white;
+}
+
+@keyframes slides {
+    from {
+        margin-right: 0%;
+        width: 0%;
+    }
+    to {
+        margin-left: 0%;
+        width: 75%;
+    }
+}
+
+.portfolio {
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    #inv1 {
+        visibility: visible;
+    }
+    .ba {
+        position: fixed;
+        margin-left: -5em;
+    }
+    ul {
+        visibility: hidden;
+    }
+    .menucah1 {
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+    }
+}
